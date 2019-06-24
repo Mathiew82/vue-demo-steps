@@ -1,13 +1,14 @@
 <template>
   <div>
-    <b>Step1</b>
     <p>
-      <button
-        type="button"
-        @click="changeStep('Step2')">
-        Continuar
-      </button>
+      <b>1- Step1</b>
     </p>
+    <button
+      type="button"
+      class="btn-next"
+      @click="changeStep('Step2')">
+      Continuar
+    </button>
   </div>
 </template>
 

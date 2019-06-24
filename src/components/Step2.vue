@@ -1,20 +1,20 @@
 <template>
   <div>
-    <div
-      class="prev-step"
-      @click="changeStep('Step1')">
-      1- Step1
-    </div>
     <p>
       <b>2- Step2</b>
     </p>
-    <p>
-      <button
-        type="button"
-        @click="changeStep('Step3')">
-        Continuar
-      </button>
-    </p>
+    <button
+      type="button"
+      class="btn-prev"
+      @click="changeStep('Step1')">
+      Volver
+    </button>
+    <button
+      type="button"
+      class="btn-next"
+      @click="changeStep('Step3')">
+      Continuar
+    </button>
   </div>
 </template>
 
