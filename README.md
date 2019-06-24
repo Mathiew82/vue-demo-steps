@@ -1,5 +1,10 @@
 # vue-app-steps
 
+## Project clone
+```
+git clone https://github.com/Mathiew82/vue-demo-steps.git
+```
+
 ## Project setup
 ```
 yarn install
@@ -8,19 +13,4 @@ yarn install
 ### Compiles and hot-reloads for development
 ```
 yarn run serve
-```
-
-### Compiles and minifies for production
-```
-yarn run build
-```
-
-### Run your tests
-```
-yarn run test
-```
-
-### Lints and fixes files
-```
-yarn run lint
 ```
