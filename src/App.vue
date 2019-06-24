@@ -1,12 +1,7 @@
 <template>
   <div id="app">
     <img alt="Vue logo" src="./assets/logo.png">
-    <ul>
-      <li @click="changeComponent('Step1')">step 1</li>
-      <li @click="changeComponent('Step2')">step 2</li>
-      <li @click="changeComponent('Step3')">step 3</li>
-    </ul>
-    <h1>Componente</h1>
+    <h1>Component</h1>
     <component :is="currentTabComponent" @changeStep="changeComponent"></component>
   </div>
 </template>
@@ -68,6 +63,14 @@ ul {
       color: grey;
       cursor: pointer;
     }
+  }
+}
+
+.prev-step {
+  color: grey;
+  &:hover {
+    color: black;
+    cursor: pointer;
   }
 }
 </style>

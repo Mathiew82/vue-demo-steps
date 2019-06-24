@@ -1,6 +1,6 @@
 <template>
   <div>
-    Step1
+    <b>Step1</b>
     <p>
       <button type="button" @click="changeStep('Step2')">
         Continuar

@@ -1,10 +1,15 @@
 <template>
   <div>
-    Step3
+    <div class="prev-step" @click="changeStep('Step1')">
+      1- Step1
+    </div>
+    <p class="prev-step" @click="changeStep('Step2')">
+      2- Step2
+    </p>
     <p>
-      <button type="button" @click="changeStep('Step2')">
-        Volver
-      </button>
+      <b>3- Step3</b>
+    </p>
+    <p>
       <button type="button" @click="finish">
         Finalizar
       </button>
@@ -14,7 +19,7 @@
 
 <script>
 export default {
-  name: 'step3',
+  name: 'step2',
   methods: {
     changeStep (comp) {
       this.$emit('changeStep', comp)

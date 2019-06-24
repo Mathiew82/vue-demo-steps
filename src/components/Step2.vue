@@ -1,10 +1,12 @@
 <template>
   <div>
-    Step2
+    <div class="prev-step" @click="changeStep('Step1')">
+      1- Step1
+    </div>
     <p>
-      <button type="button" @click="changeStep('Step1')">
-        Volver
-      </button>
+      <b>2- Step2</b>
+    </p>
+    <p>
       <button type="button" @click="changeStep('Step3')">
         Continuar
       </button>
