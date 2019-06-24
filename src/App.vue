@@ -1,8 +1,12 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
+    <img
+      alt="Vue logo"
+      src="./assets/logo.png">
     <h1>Component</h1>
-    <component :is="currentTabComponent" @changeStep="changeComponent"></component>
+    <component
+      :is="currentTabComponent"
+      :currentTabComponent.sync="currentTabComponent"></component>
   </div>
 </template>
 
